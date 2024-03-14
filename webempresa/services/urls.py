@@ -19,5 +19,5 @@ from . import views as services_views
 
 urlpatterns = [
     #path services
-    path('services', services.services, name= 'services'),
+    path('services/', services_views.services, name= 'services'),
 ]
